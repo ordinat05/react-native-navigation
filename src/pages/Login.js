@@ -1,12 +1,10 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 
-import Router from "./src/Router";
-
-export default function App() {
+export default function Login() {
   return (
     <View style={styles.container}>
-      <Text>TEST</Text>
+      <Text>Login.js</Text>
       <StatusBar style="auto" />
     </View>
   );
